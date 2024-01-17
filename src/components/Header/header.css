@@ -1,0 +1,55 @@
+
+
+.paginaOne{
+    background-color: #19002E;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.menu{
+    position: absolute;
+    bottom: 0;
+
+}
+li ul{
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Kanit;
+    font-size: 30px;
+    border-right: 2px solid #F34DA9;
+    padding-right: 30px;
+
+
+    &:hover{
+        color: #F34DA9;
+        opacity: 0.7;
+        transition: 0.7s;
+    }
+}
+
+ul:last-child{
+    border: none;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 65px;
+    text-align: left;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: left;
+}
+
+.textos span{
+    color:#F34DA9 ;
+}
