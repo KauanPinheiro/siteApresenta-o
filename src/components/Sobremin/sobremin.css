@@ -1,0 +1,39 @@
+
+
+.paginaTwo{
+    background-color: #19002E;
+    height: 100vh;
+}
+.containerTwo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 10px;
+    
+}
+
+.logo{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3{
+    color: #FFFFFF;
+    font-size: 65px;
+    text-align: right;
+}
+p{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 150px;
+    margin: 0 150px;
+}
+.conteudo span{
+    color:#F34DA9 ;
+}
+
+/*
+
+*/
