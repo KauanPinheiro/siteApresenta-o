@@ -1,39 +1,26 @@
 
-
-.paginaTwo{
+.paginaFive{
     background-color: #19002E;
     height: 100vh;
 }
-.containerTwo{
+.containerFive{
     display: flex;
     align-items: center;
     margin-left: 50px;
     padding-top: 10px;
-    
 }
-
 .logo{
     height: 70px;
     margin-left: 20px;
     margin-right: 20px;
 }
-
 h3{
     color: #FFFFFF;
     font-size: 65px;
     text-align: right;
 }
-.conteudo{
-    color: #FFFFFF;
-    font-size: 30px;
-    text-align: justify;
-    padding-top: 120px;
-    margin: 0 250px;
+.contatos{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
 }
-.conteudo span{
-    color:#F34DA9 ;
-}
-
-/*
-
-*/
