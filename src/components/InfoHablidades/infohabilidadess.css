@@ -1,0 +1,21 @@
+.subPagina{
+    background-color: #19002E;
+    height: 100vh;
+}
+.containerSeix{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.logo{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.habilidades{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}

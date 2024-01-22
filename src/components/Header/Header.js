@@ -1,6 +1,6 @@
 import logo from '../../img/MicrosoftTeams-image.png';
 import './header.css';
-
+import {Link} from "react-router-dom";
 
 
 
@@ -22,10 +22,14 @@ function Header(){
 
             </div>
                 <li className="menu">
-                    <ul>Sobre mim</ul>
+                    {/*<ul>Sobre mim</ul>
                     <ul>Meus projetos</ul>
                     <ul>Habilidades</ul>
-                    <ul>Contatos</ul>
+                    <ul>Contatos</ul>*/}
+                    <Link to="/sobremin">Sobre min</Link>
+                    <Link to="/meusprojetos">Meus projetos</Link>
+                    <Link to="/habilidades">Habilidades</Link>
+                    <Link to="/contatos">Contatos</Link>
                 </li>   
 
         </div>

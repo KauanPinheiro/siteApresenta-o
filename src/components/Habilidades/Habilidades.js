@@ -8,7 +8,7 @@ import LogoNode from "../../img/logoNode.png";
 import LogoPhp from "../../img/logPhp.png";
 import logo from '../../img/MicrosoftTeams-image.png';
 import "./habilidades.css";
-
+import Voltahome from "../Voltahome/Voltahome";
 function Hablidades(){
 
     return(
@@ -31,6 +31,7 @@ function Hablidades(){
                         
                 </div>
 
+                <Voltahome/>
         </div>
     )
 };

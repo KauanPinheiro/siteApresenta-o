@@ -1,4 +1,5 @@
 import logo from '../../img/MicrosoftTeams-image.png';
+import Voltahome from '../Voltahome/Voltahome';
 import "./sobremin.css";
 
 function Sobremin(){
@@ -15,6 +16,8 @@ function Sobremin(){
                     com o foco em ser um desenvolvedor <span>Front-End</span> , <span>Back-End</span> e <span>Mobile</span>.
                         Hoje trabalho como operador de caixa na empresa Assaí Atacadista.
                             Estou em busca de uma  primeira oportunidade na área do desenvolvimento .</p>
+
+                <Voltahome/>
         </div>
     );
 }

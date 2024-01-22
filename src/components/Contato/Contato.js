@@ -4,7 +4,7 @@ import ExibirContatos from "../ExibirContatos/ExibirConatos";
 import ftEmail from "../../img/capEmail.png"
 import ftgit from "../../img/capLinked.png"
 import ftlikedn from "../../img/capIn.png"
-
+import Voltahome from "../Voltahome/Voltahome";
 function Contato(){
 
     return(
@@ -20,7 +20,7 @@ function Contato(){
                 <ExibirContatos  foto={ftlikedn} name="https://www.linkedin.com/in/kauan-pinheiro-do-nascimento-479071276/" />
                 <ExibirContatos  foto={ftgit} name="https://github.com/KauanPinheiro" />
             </div>
-
+            <Voltahome/>
         </div>
     )
 }

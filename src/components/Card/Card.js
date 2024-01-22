@@ -1,7 +1,7 @@
 import logo from '../../img/MicrosoftTeams-image.png';
 import cleanfood from '../../img/Titulo-main.png'
 import './card.css';
-
+import Voltahome from '../Voltahome/Voltahome';
 function Card(){
 
     return(
@@ -19,12 +19,12 @@ function Card(){
                     </div>
                     <div className='flip-card-back'>
                         <h4>Clean Food</h4>
-                        <p>A clean Food foi criada no ano de 2023,por cinco jovens que se importam com diversidade alimentar
+                        <p className='conteudoCard'>A clean Food foi criada no ano de 2023,por cinco jovens que se importam com diversidade alimentar
                                 bucando trazer conhecimento para as pessoas de todos os gostos.</p>
                     </div>
                 </div>
             </div>
-
+            <Voltahome/>
         </div>
 
     )
