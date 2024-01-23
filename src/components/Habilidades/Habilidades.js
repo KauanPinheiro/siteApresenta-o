@@ -9,6 +9,7 @@ import LogoPhp from "../../img/logPhp.png";
 import logo from '../../img/MicrosoftTeams-image.png';
 import "./habilidades.css";
 import Voltahome from "../Voltahome/Voltahome";
+import { Link } from "react-router-dom";
 function Hablidades(){
 
     return(
@@ -20,14 +21,14 @@ function Hablidades(){
                 <h3>Habilidades</h3>
             </div>
 
-                <div className="habilidades">
-                    <PhotoExibir nome="React" img={LogoReact}/>
-                    <PhotoExibir nome="JavaScript" img={LogoJavascript}/>
-                    <PhotoExibir nome="CSS 3" img={LogoCss}/>
-                    <PhotoExibir nome="HTML 5" img={LogoHtml}/>
-                    <PhotoExibir nome="DB Relacional" img={LogoSql}/>
-                    <PhotoExibir nome="NodeJS" img={LogoNode}/>
-                    <PhotoExibir nome="PHP" img={LogoPhp}/>
+                <div className="habilidades1">
+                    <Link to='/infoReact'><PhotoExibir nome="React" img={LogoReact}/></Link>
+                    <Link to="/infoJS"><PhotoExibir nome="JavaScript" img={LogoJavascript}/></Link>
+                    <Link to="/infoCss"><PhotoExibir nome="CSS 3" img={LogoCss}/></Link>
+                    <Link to="/infoHtml"><PhotoExibir nome="HTML 5" img={LogoHtml}/></Link>
+                    <Link to="/infoDb"><PhotoExibir nome="DB Relacional" img={LogoSql}/></Link>
+                    <Link to="/infoNode"><PhotoExibir nome="NodeJS" img={LogoNode}/></Link>
+                    <Link to="/infoPhp"><PhotoExibir nome="PHP" img={LogoPhp}/></Link>
                         
                 </div>
 

@@ -15,7 +15,7 @@ function Contato(){
                     <h3>Contatos</h3>
             </div>
 
-            <div className='contatos'>
+            <div className='contatos1'>
                 <ExibirContatos  foto={ftEmail} name="kauan.pnascimento750@gmail.com" />
                 <ExibirContatos  foto={ftlikedn} name="https://www.linkedin.com/in/kauan-pinheiro-do-nascimento-479071276/" />
                 <ExibirContatos  foto={ftgit} name="https://github.com/KauanPinheiro" />

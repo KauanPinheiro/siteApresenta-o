@@ -16,6 +16,7 @@
 }
 .habilidades{
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: left;
+    align-items: center;
+    padding: 50px 200px ;
 }

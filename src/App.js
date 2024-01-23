@@ -31,12 +31,32 @@ const router = createBrowserRouter([
   },
   {
     path: "infoReact",
-    element: <InfoHablidades titulo="React"/>
+    element: <InfoHablidades titulo="REACT"/>
   },
   {
     path: "infoJs",
     element: <InfoHablidades titulo="JS"/>
-  }
+  },
+  {
+    path: "infoCss",
+    element: <InfoHablidades titulo="CSS"/>
+  },
+  {
+    path: "infoHtml",
+    element: <InfoHablidades titulo="HTML"/>
+  },
+  {
+    path: "infoDb",
+    element: <InfoHablidades titulo="DB"/>
+  },
+  {
+    path: "infoNode",
+    element: <InfoHablidades titulo="NODE"/>
+  },
+  {
+    path: "infoPhp",
+    element: <InfoHablidades titulo="PHP"/>
+  },
 ])
 
 

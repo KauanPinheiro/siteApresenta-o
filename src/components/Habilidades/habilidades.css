@@ -19,8 +19,17 @@ h3{
     font-size: 65px;
     text-align: right;
 }
-.habilidades{
+.habilidades1{
     display: flex;
     justify-content: space-around;
     padding: 50px;
+}
+.habilidades1 a{
+    text-decoration: none;
+
+    &:hover{
+        color: #F34DA9;
+        opacity: 0.7;
+        transition: 0.7s;
+    }
 }

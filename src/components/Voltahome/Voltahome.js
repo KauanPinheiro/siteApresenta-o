@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./voltahome.css";
 
 function Voltahome(){
 
@@ -10,7 +11,7 @@ function Voltahome(){
 
     return(
         <div>
-            <button onClick={handlehHome}>Home</button>
+            <button className="btn1" onClick={handlehHome}>Home</button>
         </div>
     )
 }

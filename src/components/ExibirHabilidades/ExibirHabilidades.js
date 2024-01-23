@@ -1,10 +1,10 @@
+import "./exibirhabilidades.css";
 
-
-function ExibirHabilidades({titulo,text}){
+function ExibirHabilidades({title,text}){
 
     return(
-            <div>
-                <h5 className="titulo-explicativo">{titulo}</h5>
+            <div className="container-ultimo">
+                <h5 className="titulo-explicativo">{title}</h5>
                 <p className="text-explicativo">{text}</p>
             </div>
     )

@@ -22,10 +22,6 @@ function Header(){
 
             </div>
                 <li className="menu">
-                    {/*<ul>Sobre mim</ul>
-                    <ul>Meus projetos</ul>
-                    <ul>Habilidades</ul>
-                    <ul>Contatos</ul>*/}
                     <Link to="/sobremin">Sobre min</Link>
                     <Link to="/meusprojetos">Meus projetos</Link>
                     <Link to="/habilidades">Habilidades</Link>
